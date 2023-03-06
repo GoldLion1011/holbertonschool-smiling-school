@@ -1,4 +1,4 @@
-@import 'style.css';
+@import url("style.css");
 
 /**--- Variables ---**/
 
@@ -16,9 +16,7 @@ body {
   font-family: var(--font-family);
 }
 
-.icon::before {
-  font-family: 'holberton_school_icon', serif !important;
-}
+
 
 /**--- Background ---**/
 
@@ -53,9 +51,7 @@ li a:hover, li a:focus {
   text-decoration: none;
 }
 
-.navbar-icon::before {
-  font-family: 'holberton_school_icon';
-  content:"\e911";
+.navbar-icon:before {
   color: var(--color-white);
 }
 
