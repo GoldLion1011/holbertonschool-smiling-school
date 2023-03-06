@@ -1,0 +1,65 @@
+@import 'style.css';
+
+/**--- Variables ---**/
+
+:root {
+  --font-family:'Source Sans Pro', serif;
+  --color-white: #ffffff;
+  --color-dark: #071629;
+  --color-purple: #c271ff;
+  --color-grey: #979797;
+}
+
+/**--- Base ---**/
+
+body {
+  font-family: var(--font-family);
+}
+
+.icon::before {
+  font-family: 'holberton_school_icon', serif !important;
+}
+
+/**--- Background ---**/
+
+.homepage {
+  background-image: url('images/pic_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center-top;
+}
+
+.purple {
+  color: var(--color-purple);
+}
+
+/**--- Buttons ---**/
+
+.btn, .btn:hover, .btn:focus {
+  background-color: var(--color-purple);
+  border-color: var(--color-purple);
+}
+.btn:hover, .btn-focus {
+  opacity: 0.9;
+}
+.btn-shadow {
+  box-shadow: 0 0 10px 5px rgba(56, 56, 56, 0.813);
+}
+
+/**--- NavLinks ---**/
+
+li a:hover, li a:focus {
+  color: var(--color-purple) !important;
+  text-decoration: none;
+}
+
+.navbar-icon::before {
+  font-family: 'holberton_school_icon';
+  content:"\e911";
+  color: var(--color-white);
+}
+
+.navbar-toggler {
+  font-size: 2.25rem;
+  top: 3rem;
+}
