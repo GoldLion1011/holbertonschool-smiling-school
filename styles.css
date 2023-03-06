@@ -55,3 +55,23 @@ li a:hover, li a:focus {
   font-size: 2.25rem;
   top: 3rem;
 }
+
+/**--- Carousels ---**/
+
+.purple-bg {
+  background-color: var(--color-purple) !important; 
+}
+
+.carousel-avatar {
+  margin-top: 2rem;
+}
+
+.leftArrow:before {
+  content: "\e903";
+  font-size: 8rem;
+}
+
+.rightArrow:before {
+  content: "\e902";
+  font-size: 8rem;
+}
