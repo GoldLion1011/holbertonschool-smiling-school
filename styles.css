@@ -138,3 +138,8 @@ li a:hover, li a:focus {
   width: 125px;
 }
 
+/**--- Membership ---**/
+
+.bg-dark {
+  color: var(--color-dark) !important;
+}
