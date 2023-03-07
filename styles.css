@@ -66,6 +66,18 @@ li a:hover, li a:focus {
   margin-top: 2rem;
 }
 
+.phone {
+  display: block;
+}
+
+.tablet {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
 .leftArrow:before {
   content: "\e903";
   font-size: 8rem;
@@ -75,3 +87,54 @@ li a:hover, li a:focus {
   content: "\e902";
   font-size: 8rem;
 }
+
+.leftArrowVideo:before {
+  content: '\e903';
+  font-size: 8rem;
+  color: black;
+}
+
+.rightArrowVideo:before {
+  content: '\e902';
+  font-size: 8rem;
+  color: black;
+}
+
+.pl-6 {
+  padding-left: 3.5rem;
+  padding-right: 3rem;
+}
+
+.mins {
+  padding-left: 5rem;
+}
+
+.videoLeft {
+  top: 8.5rem;
+  padding-right: 1rem;
+  padding-left: auto;
+}
+
+.videoRight {
+  top: 8.5rem;
+  padding-left: 1rem;
+  padding-right: auto;
+}
+
+.search {
+  color: white;
+  font-size: 1.75rem;
+  opacity: .8;
+}
+
+::placeholder {
+  color: lightgrey;
+  font-size: 1.75rem;
+  opacity: .6;
+}
+
+.play {
+  height: 125px;
+  width: 125px;
+}
+
