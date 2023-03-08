@@ -143,3 +143,29 @@ li a:hover, li a:focus {
 .bg-dark {
   color: var(--color-dark) !important;
 }
+
+/**--- Footer ---**/
+
+.fb-icon:before {
+  font-family: 'holberton_school-icon';
+  content: "\e908";
+  color: var(--color-white);
+}
+
+.twitter-icon:before {
+  font-family: 'holberton_school-icon';
+  content: "\e90f";
+  color: var(--color-white);
+}
+
+.insta-icon:before {
+  font-family: 'holberton_school-icon';
+  content: "\e90a";
+  color: var(--color-white);
+}
+
+.search:before {
+  font-family: 'holberton_school-icon';
+  content: "\e912";
+  color: var(--color-dark);
+}
