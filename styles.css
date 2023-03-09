@@ -16,12 +16,24 @@ body {
   font-family: var(--font-family);
 }
 
-
-
 /**--- Background ---**/
 
 .homepage {
   background-image: url('images/pic_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center-top;
+}
+
+.pricing {
+  background-image: url('images/pic_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center-top;
+}
+
+.courses {
+  background-image: url('images/pic_3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center-top;
