@@ -3,7 +3,7 @@
 /**--- Variables ---**/
 
 :root {
-  --font-family:'Source Sans Pro', serif;
+  --font-family: 'Source Sans Pro', serif;
   --color-white: #ffffff;
   --color-dark: #252525;
   --color-purple: #c271ff;
@@ -161,6 +161,10 @@ li a:hover, li a:focus {
   width: 125px;
 }
 
+.card-img-overlay {
+  width: 5rem;
+  height: 5rem;
+}
 /**--- Membership ---**/
 
 .bg-dark {
@@ -240,3 +244,6 @@ li a:hover, li a:focus {
 
 /**--- Courses ---**/
 
+.coiny {
+  font-family: 'Coiny', cursive;
+}
